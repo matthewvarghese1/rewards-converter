@@ -4,7 +4,7 @@ public class RewardValue {
 
     public RewardValue(double cashValue) {
         this.cashValue = cashValue;
-        this.milesValue = cashValue / 0.0035; // Convert cash to miles
+        this.milesValue = cashValue / 0.0035;
     }
 
     public double getCashValue() {
